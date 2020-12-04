@@ -1,0 +1,55 @@
+.section4 {
+    padding: 70px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video {
+    background-image: url('../assets/watch-img-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+    border-radius: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playBtn {
+    cursor: pointer;
+}
+
+.playBtnStyle {
+    color: var(--orange);
+    font-size: 100px;
+    transition: color .3s ease;
+}
+
+.playBtn:hover .playBtnStyle {
+    color: orange;
+}
+
+@media screen and (min-width: 768px) {
+    .section4 h6 {
+        width: 50%;
+    }
+    .section4 h2 {
+        width: 50%;
+    }
+    .section4 p {
+        width: 50%;
+    }
+    .video {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .video {
+        width: 60%;
+    }
+}

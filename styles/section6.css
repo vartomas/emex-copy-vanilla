@@ -1,0 +1,153 @@
+.section6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.section6 h2 {
+    width: 90%;
+    text-align: center;
+}
+
+.section6 p {
+    width: 80%;
+    text-align: center;
+}
+
+.section6 form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section6 form label {
+    font-weight: 700;
+    display: inline-block;
+    margin: .5rem 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0c2461;
+}
+
+.section6 form input {
+    height: 50px;
+    font-size: 15px;
+    border-color: #daecfd;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.section6 form input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #69b7ff;
+}
+
+.section6 form textarea {
+    height: 50px;
+    font-size: 15px;
+    border-color: #daecfd;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    height: 200px;
+}
+
+.section6 form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px #69b7ff;
+}
+
+.section6 form button {
+    background-color: #ff6348;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    transition: background-color .3s ease-out;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.section6 form button:hover {
+    background-color: #fd5436;
+}
+
+.section6 form button:active {
+    outline: none;
+}
+
+.form-contacts {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.form-contacts li {
+    width: 100%;    
+}
+
+.form-contacts-icons {
+    color: var(--orange);
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.form-contacts h5 {
+    color: #0B2461;
+    margin-bottom: 0;
+}
+
+.form-contacts p {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    color: #3c6382;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+    .section6 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+        align-items: baseline;
+    }
+    .section6 h6, .section6 h2, .section6 p {
+        width: 55%;
+        text-align: left;
+    }
+    .section6 form {
+        width: 50%;
+    }
+    .form-contacts {
+        width: 40%;
+    }
+}

@@ -1,0 +1,76 @@
+.section1 {
+    background-color: #FBD7B5;
+    padding: 100px 15px;
+    text-align: center;
+}
+
+.section1-info > button {
+    background-color: #ff6348;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    margin-top: 45px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    transition: background-color .3s ease-out;
+    cursor: pointer;
+}
+
+.section1-info > button:hover {
+    background-color: #fd5436;
+}
+
+.section1-info > button:active {
+    outline: none;
+}
+
+.fa-long-arrow-right {
+    margin-left: 10px;
+}
+
+.section1-info > h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #0B2461;
+}
+
+.img-section1 {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .section1 {
+        display: flex;
+        align-items: center;
+        padding: 100px 10%;
+    }
+    .section1-info {
+        width: 65%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img-section1 {
+        width: 35%;
+    }
+    .section1-info h1 {
+        text-align: left;
+        width: 100%;
+    }
+    .section1-info p {
+        width: 80%;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    .section1-info > button {
+        margin: 0;
+        margin-right: 40px;
+    }
+    .section1-info > h3 {
+        align-self: center;
+    }
+}

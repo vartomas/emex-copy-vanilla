@@ -1,0 +1,89 @@
+.section3 {
+    background-color: #F6F3EA;
+    padding: 70px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3 > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3 > ul > li {
+    width: 70%;
+    display: block;
+    margin: 20px 0;
+}
+
+.section3 > ul > li > span {
+    color: var(--orange);
+    font-size: 30px;
+}
+
+.section3 > h2 {
+    width: 90%;
+}
+
+.section3 > p {
+    width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+    .section3 {
+        align-items: flex-start;
+    }
+    .section3 > h6 {
+        text-align: left;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .section3 > h2 {
+        text-align: left;
+        width: 60%;
+        margin: 20px auto;
+    }
+    .section3 > p {
+        text-align: left;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .section3 > ul {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .section3 > ul > li {
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .section3 > ul > li > h4 {
+        display: inline-block;
+        text-align: left;
+        width: 85%;
+    }
+    .section3 > ul > li > p {
+        text-align: left;
+        width: 100%;
+    }
+    .section3 > ul > li > span {
+        width: 10%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .section3 > ul > li {
+        width: 30%;
+    }
+}
